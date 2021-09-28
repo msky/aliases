@@ -1,0 +1,20 @@
+alias k=kubectl
+
+alias gwb="./gradlew build"
+
+alias gc="git commit"
+alias ga="git add ."
+alias gs="git status"
+alias gd="git diff"
+alias gl="git log"
+alias gp="git push"
+alias gb="git branch"
+
+alias stash="git stash" 
+alias nb="git checkout -b"
+alias master="git checkout master"
+alias pull="git pull" 
+alias switch="git switch"
+alias hard="git reset --hard"
+alias delete_branches="git branch | grep -v "master" | xargs git branch -D"
+alias amend="git add .; git commit --amend --no-edit"
